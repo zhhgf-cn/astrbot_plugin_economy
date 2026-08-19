@@ -1,0 +1,52 @@
+{
+  "initial_coins": {
+    "description": "新用户初始金币",
+    "type": "int",
+    "default": 100,
+    "hint": "新注册用户将获得的初始金币数量"
+  },
+  "sign_reward": {
+    "description": "每日签到奖励",
+    "type": "int",
+    "default": 10,
+    "hint": "每次签到获得的金币数量"
+  },
+  "sign_bonus": {
+    "description": "连续签到奖励（每7天）",
+    "type": "int",
+    "default": 5,
+    "hint": "连续签到7天额外获得的金币"
+  },
+  "stock_update_interval": {
+    "description": "股价更新间隔（分钟）",
+    "type": "int",
+    "default": 30,
+    "hint": "自动更新股价的时间间隔"
+  },
+  "max_price_change": {
+    "description": "最大涨跌幅（%）",
+    "type": "int",
+    "default": 10,
+    "hint": "单次股价波动的最大百分比"
+  },
+  "admin_ids": {
+    "description": "管理员用户ID列表",
+    "type": "list",
+    "items": {
+      "type": "string"
+    },
+    "hint": "可以管理商品和股票的用户ID列表"
+  },
+  "enable_stock_system": {
+    "description": "启用股票系统",
+    "type": "bool",
+    "default": true,
+    "hint": "是否启用虚拟炒股功能"
+  },
+  "enable_shop_system": {
+    "description": "启用商店系统",
+    "type": "bool",
+    "default": true,
+    "hint": "是否启用商店功能"
+  }
+}
