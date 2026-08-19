@@ -3,7 +3,7 @@ display_name: 经济系统
 desc: 完整的经济系统插件，支持打卡签到、虚拟炒股、商店交易，所有功能均可通过 AI 工具调用。
 short_desc: 打卡、炒股、购物，一站式经济系统
 version: v1.0.0
-author: opencode
+author: zhhgf-cn
 repo: https://github.com/opencode/astrbot_plugin_economy
 astrbot_version: ">=4.5.0"
 support_platforms:
